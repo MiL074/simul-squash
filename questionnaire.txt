@@ -1,0 +1,137 @@
+================================================================================
+QUESTIONNAIRE simul-squash — Configuration initiale
+================================================================================
+
+Ce questionnaire permet de configurer ta simulation économique de club
+de squash. Une dizaine de questions pour décrire ton club (ou ton projet
+de club), tes tarifs, tes coûts. Toutes les valeurs sont modifiables
+ensuite depuis l'onglet Paramètres de l'application.
+
+Si tu n'es pas sûr·e d'une valeur, laisse celle proposée — tu pourras
+affiner plus tard avec les sliders du dashboard.
+
+Astuce : note tes réponses au fur et à mesure ; tu pourras les saisir
+directement dans l'application lors du premier lancement.
+
+
+--------------------------------------------------------------------------------
+SECTION 1 — TON CLUB
+--------------------------------------------------------------------------------
+
+Q1. Quel est le nom de ton club ?
+    ▸ Format : texte libre
+    ▸ Exemple : "Squash Club Joinville"
+    Réponse : ____________________________________________________________
+
+
+Q2. Combien de courts dans ton club ?
+    ▸ Format : nombre entier (1 à 20)
+    ▸ Détermine la capacité totale en créneaux jouables.
+    Réponse : __________ courts
+
+
+Q3. Combien d'heures d'ouverture par jour ?
+    ▸ Format : nombre entier (4 à 24)
+    ▸ Exemple : ouverture 8h → 22h = 14 heures.
+    Réponse : __________ heures / jour
+
+
+Q4. Combien de jours d'ouverture par semaine ?
+    ▸ Format : nombre entier (1 à 7)
+    Réponse : __________ jours / semaine
+
+
+Q5. Quelle est la durée d'un créneau ?
+    ▸ Format : nombre en minutes (20 à 90)
+    ▸ Standard squash : 40 minutes (laisse 5 min entre deux résas).
+    Réponse : __________ minutes
+
+
+Q6. Quelle part de tes créneaux est en heures creuses ?
+    ▸ Format : pourcentage (0 à 100)
+    ▸ Heures creuses (HC) = matin + début d'après-midi en semaine.
+    ▸ Heures pleines (HP) = soir + week-end.
+    ▸ Estimation typique : 50% à 65% de créneaux HC.
+    Réponse : __________ % en HC   (donc __________ % en HP)
+
+
+--------------------------------------------------------------------------------
+SECTION 2 — TARIFICATION
+--------------------------------------------------------------------------------
+
+Q7. Quel est ton tarif plein en heures creuses ?
+    ▸ Format : nombre en euros
+    ▸ Prix d'un créneau réservé sans abonnement, en HC.
+    Réponse : __________ €
+
+
+Q8. Quel est ton tarif plein en heures pleines ?
+    ▸ Format : nombre en euros
+    Réponse : __________ €
+
+
+Q9. Tes cartes d'abonnement (formules de séances prépayées)
+    ▸ Si tu n'en proposes pas, laisse les valeurs par défaut et tu
+      pourras ajuster leur usage à 0% depuis le dashboard.
+
+    Carte 1
+      Nom :        ____________________________________________________
+      Séances :    __________ séances
+      Prix :       __________ €
+
+    Carte 2
+      Nom :        ____________________________________________________
+      Séances :    __________ séances
+      Prix :       __________ €
+
+    Carte 3
+      Nom :        ____________________________________________________
+      Séances :    __________ séances
+      Prix :       __________ €
+
+
+--------------------------------------------------------------------------------
+SECTION 3 — COÛTS
+--------------------------------------------------------------------------------
+
+Q10. Tes coûts fixes mensuels
+     ▸ Format : nombre en euros
+     ▸ Inclure : loyer, salaires, assurances, abonnements
+       (logiciels, internet, etc.).
+     Réponse : __________ € / mois
+
+
+Q11. Coût variable par créneau joué
+     ▸ Format : nombre en euros (souvent décimal)
+     ▸ Inclure : énergie (éclairage, chauffage), nettoyage,
+       consommables.
+     ▸ Estimation typique : 1 € à 3 € par créneau.
+     Réponse : __________ € / créneau
+
+
+--------------------------------------------------------------------------------
+À NOTER
+--------------------------------------------------------------------------------
+
+Les TAUX D'OCCUPATION (pourcentage de créneaux effectivement réservés
+en HC et en HP) ne sont pas demandés ici. C'est volontaire : ce sont
+les leviers principaux à explorer dans le dashboard pour comparer
+des scénarios (occupation faible / réaliste / cible).
+
+Une fois ta configuration saisie dans l'application, le dashboard
+affiche en temps réel :
+  • Chiffre d'affaires mensuel
+  • Résultat net mensuel
+  • Taux d'occupation global
+  • Recette moyenne par créneau
+  • Détail HC / HP, coûts fixes / variables, marge brute
+
+Tu peux ensuite jouer avec les sliders pour faire varier l'occupation
+et le mix tarifaire (cartes vs plein tarif) et voir l'impact immédiat
+sur tes KPIs.
+
+
+--------------------------------------------------------------------------------
+simul-squash — Outil open source pour la communauté squash française.
+Licence MIT. https://github.com/[à compléter]/simul-squash
+--------------------------------------------------------------------------------
